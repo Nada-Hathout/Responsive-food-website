@@ -15,7 +15,8 @@
 
     .scrolled {
         margin-top: 0px;
-        background-color: rgb(0, 0, 0); /* Dark background when scrolled */
+        background-color: rgb(44, 44, 44); /* Dark background when scrolled */
+        overflow: hidden;
     }
 
     /* Add padding so content does not hide under fixed navbar */
@@ -33,15 +34,15 @@
     ul li:hover{
         margin-left: 10px;
         background-color: rgba(236, 241, 233, 0.925);
+
         
         
-       
     }
     #btnNumber{
         margin-left: 10px;
     }
     .navbar{
-        background-color: black;
+        background-color: rgb(0, 0, 0);
     }
 }
 ul .nav-link:hover{
@@ -74,6 +75,8 @@ ul li{
 }
 .navbar-nav .nav-link {
     color: aliceblue;
+    font-size: large;
+    font-weight: bold;
 }
 .bg1{
     position: relative;
@@ -214,7 +217,7 @@ height: fit-content;
 /* //////////////////////////////////// section 4 */
 .container4{
     width: 100%;
-    height: 90vh;
+    height: 60vh;
     background-image: url("./Foodies_Images_Text/images/bg/bg-2.jpg");
     background-repeat: no-repeat;
     
@@ -253,7 +256,8 @@ height: fit-content;
 /* /////////////////////////////////// section 5 */
 #cards{
     border: .2rem green solid;
-    background-color:rgb(23, 26, 27);;
+    background-color:rgb(23, 26, 27);
+    margin-top: 20px;
    
   
 }
